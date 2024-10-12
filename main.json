@@ -41,12 +41,12 @@
   },
   {
     "name": "Yescoin",
-    "botId": "Yescoin",
+    "botId": "theYescoin_bot",
     "author": "mudachyo",
     "version": "2.3",
     "description": "Yescoin Autoclicker",
-    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Yescoin/icon.png",
-    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Yescoin/1.1.js",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/1.1.js",
     "ref": "https://t.me/theYescoin_bot/Yescoin?startapp=PGqXs5"
   }
 ]

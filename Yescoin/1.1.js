@@ -2,7 +2,7 @@
 // @name            YesCoin
 // @version         1.1
 // @description     YesCoin Autoclicker
-// @icon            https://raw.githubusercontent.com/Zelegram/Scripts/main/Yescoin/icon.png
+// @icon            https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/icon.png
 // @author          mudachyo
 // @run-at          load-done
 // ==/TeleModScript==
