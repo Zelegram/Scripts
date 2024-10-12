@@ -18,5 +18,15 @@
     "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/icon.jpg",
     "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/1.4.js",
     "ref": "https://t.me/empirebot/game?startapp=hero1084064916"
+  },
+  {
+    "name": "Not Pixel",
+    "botId": "notpixel",
+    "author": "mudachyo",
+    "version": "2.1",
+    "description": "Not Pixel Autoclicker",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/icon.jpeg",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/2.1.js",
+    "ref": "https://t.me/notpixel/app?startapp=f1084064916_s573790"
   }
 ]
