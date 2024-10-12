@@ -48,5 +48,15 @@
     "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/icon.png",
     "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/1.1.js",
     "ref": "https://t.me/theYescoin_bot/Yescoin?startapp=PGqXs5"
+  },
+  {
+    "name": "Bcoin 2048",
+    "botId": "Bcoin2048bot",
+    "author": "KittenWoof",
+    "version": "1.3",
+    "description": "Bcoin 2048 AutoFarm",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Bcoin2048bot/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Bcoin2048bot/1.3.js",
+    "ref": "https://t.me/Bcoin2048bot/app?startapp=ref_pCHwZ3pWtshWXacfatOzL7kd"
   }
 ]
