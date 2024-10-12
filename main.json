@@ -1,12 +1,22 @@
 [
-    {
-      "name": "Bybit Coinsweeper",
-      "botId": "BybitCoinsweeper_Bot",
-      "author": "xFlaem",
-      "version": "1.0.1",
-      "description": "Auto Play Bybit Coinsweeper!!",
-      "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/icon.jpg",
-      "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/1.0.0.js",
-      "ref": "https://t.me/BybitCoinsweeper_Bot?start=referredBy=1084064916"
-    }
-  ]
+  {
+    "name": "Bybit Coinsweeper",
+    "botId": "BybitCoinsweeper_Bot",
+    "author": "xFlaem",
+    "version": "1.0.1",
+    "description": "Auto Play Bybit Coinsweeper!!",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/icon.jpg",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/1.0.0.js",
+    "ref": "https://t.me/BybitCoinsweeper_Bot?start=referredBy=1084064916"
+  },
+  {
+    "name": "X Empire",
+    "botId": "empirebot",
+    "author": "mudachyo",
+    "version": "1.4",
+    "description": "X Empire Autoclicker",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/icon.jpg",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/1.4.js",
+    "ref": "https://t.me/empirebot/game?startapp=hero1084064916"
+  }
+]
