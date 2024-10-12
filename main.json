@@ -28,5 +28,15 @@
     "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/icon.jpeg",
     "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/2.1.js",
     "ref": "https://t.me/notpixel/app?startapp=f1084064916_s573790"
+  },
+  {
+    "name": "MemeFI",
+    "botId": "memefi_coin_bot",
+    "author": "mudachyo",
+    "version": "2.3",
+    "description": "MemeFI Autoclicker",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/2.3.js",
+    "ref": "https://t.me/memefi_coin_bot/main?startapp=r_264f831615"
   }
 ]
