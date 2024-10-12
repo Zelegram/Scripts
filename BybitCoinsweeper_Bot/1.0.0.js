@@ -8,6 +8,9 @@
 // ==/TeleModScript==
 
 (async function () {
+  // Keep the screen on while the bot auto-plays it.
+  TeleMod.setKeepScreenOn(true);
+
     function waitForGameBoard() {
       return new Promise((resolve) => {
         const checkInterval = setInterval(() => {
