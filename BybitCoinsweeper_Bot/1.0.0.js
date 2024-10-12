@@ -2,11 +2,9 @@
 // @name            Bybit Coinsweeper
 // @version         1.0.0
 // @description     Auto Play Bybit Coinsweeper!!
-// @icon            https://github.com/Zelegram/Scripts/raw/BybitCoinsweeper_Bot/xFlaem/icon.jpg
+// @icon            https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/icon.jpg
 // @author          xFlaem
-// @supportURL      https://t.me/xFlaem
 // @run-at          load-done
-// @target          BybitCoinsweeper_Bot
 // ==/TeleModScript==
 
 (async function () {
