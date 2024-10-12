@@ -38,5 +38,15 @@
     "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/icon.png",
     "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/2.3.js",
     "ref": "https://t.me/memefi_coin_bot/main?startapp=r_264f831615"
+  },
+  {
+    "name": "Yescoin",
+    "botId": "Yescoin",
+    "author": "mudachyo",
+    "version": "2.3",
+    "description": "Yescoin Autoclicker",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Yescoin/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Yescoin/1.1.js",
+    "ref": "https://t.me/theYescoin_bot/Yescoin?startapp=PGqXs5"
   }
 ]
