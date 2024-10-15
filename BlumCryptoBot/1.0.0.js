@@ -1,6 +1,6 @@
 // ==TeleModScript==
 // @name            Blum
-// @version         1.0.0
+// @version         1.0.1
 // @description     Blum Auto Clicker!!
 // @icon            https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/icon.png
 // @author          TeleMod
@@ -9,7 +9,7 @@
 
 (async function () {
     // Keep the screen on while the bot auto-plays it.
-    // TeleMod.setKeepScreenOn(true);
+    TeleMod.setKeepScreenOn(true);
 
     let GAME_SETTINGS = {
         BombHits: 0,
@@ -209,45 +209,49 @@
     }
     
     function createMenu() {
-        const controlsContainer = document.createElement('div');
-        controlsContainer.style.position = 'fixed';
-        controlsContainer.style.bottom = '0';
-        controlsContainer.style.right = '0';
-        controlsContainer.style.zIndex = '9999';
-        controlsContainer.style.backgroundColor = 'black';
-        controlsContainer.style.padding = '10px 20px';
-        controlsContainer.style.borderRadius = '10px';
-        controlsContainer.style.cursor = 'move';
-        document.body.appendChild(controlsContainer);
-    
-        const buttonsContainer = document.createElement('div');
-        buttonsContainer.style.display = 'flex';
-        buttonsContainer.style.justifyContent = 'center';
-        controlsContainer.appendChild(buttonsContainer);
-    
-        const hiddenLink = document.createElement('div');
-        hiddenLink.id = 'logDisplay';
-        hiddenLink.style.color = 'white';
-        hiddenLink.style.marginBottom = '10px';
-        controlsContainer.prepend(hiddenLink);
-        hiddenLink.innerHTML = `<a href="https://t.me/ZelegramApp" target="_blank" style="color: white; text-decoration: none;">Blum by TeleMod</a>`;
-    
-        const pauseButton = document.createElement('button');
-        pauseButton.textContent = gameState.isGamePaused ? '▶' : '❚❚';
-        pauseButton.style.padding = '4px 8px';
-        pauseButton.style.backgroundColor = '#5d2a8f';
-        pauseButton.style.color = 'white';
-        pauseButton.style.border = 'none';
-        pauseButton.style.borderRadius = '10px';
-        pauseButton.style.cursor = 'pointer';
-        pauseButton.style.marginRight = '5px';
-        pauseButton.onclick = togglePause;
-        buttonsContainer.appendChild(pauseButton);
-    
-        function togglePause() {
-            gameState.isGamePaused = !gameState.isGamePaused;
+        const id = "telemod-blum";
+        if(!document.querySelector(`#${id}`)){
+            const controlsContainer = document.createElement('div');
+            controlsContainer.id = id;
+            controlsContainer.style.position = 'fixed';
+            controlsContainer.style.bottom = '0';
+            controlsContainer.style.right = '0';
+            controlsContainer.style.zIndex = '9999';
+            controlsContainer.style.backgroundColor = 'black';
+            controlsContainer.style.padding = '10px 20px';
+            controlsContainer.style.borderRadius = '10px';
+            controlsContainer.style.cursor = 'move';
+            document.body.appendChild(controlsContainer);
+        
+            const buttonsContainer = document.createElement('div');
+            buttonsContainer.style.display = 'flex';
+            buttonsContainer.style.justifyContent = 'center';
+            controlsContainer.appendChild(buttonsContainer);
+        
+            const hiddenLink = document.createElement('div');
+            hiddenLink.id = 'logDisplay';
+            hiddenLink.style.color = 'white';
+            hiddenLink.style.marginBottom = '10px';
+            controlsContainer.prepend(hiddenLink);
+            hiddenLink.innerHTML = `<a href="https://t.me/ZelegramApp" target="_blank" style="color: white; text-decoration: none;">Blum by TeleMod</a>`;
+        
+            const pauseButton = document.createElement('button');
             pauseButton.textContent = gameState.isGamePaused ? '▶' : '❚❚';
-            toggleGame();
+            pauseButton.style.padding = '4px 8px';
+            pauseButton.style.backgroundColor = '#5d2a8f';
+            pauseButton.style.color = 'white';
+            pauseButton.style.border = 'none';
+            pauseButton.style.borderRadius = '10px';
+            pauseButton.style.cursor = 'pointer';
+            pauseButton.style.marginRight = '5px';
+            pauseButton.onclick = togglePause;
+            buttonsContainer.appendChild(pauseButton);
+        
+            function togglePause() {
+                gameState.isGamePaused = !gameState.isGamePaused;
+                pauseButton.textContent = gameState.isGamePaused ? '▶' : '❚❚';
+                toggleGame();
+            }
         }
     }
     
