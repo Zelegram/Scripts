@@ -1,5 +1,15 @@
 [
   {
+    "name": "Blum",
+    "botId": "BlumCryptoBot",
+    "author": "TeleMod",
+    "version": "1.0.0",
+    "description": "Blum Game Auto Clicker!",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/1.0.0.js",
+    "ref": "https://t.me/blum/app?startapp=ref_tdqrvywcNq"
+  },
+  {
     "name": "Bybit Coinsweeper",
     "botId": "BybitCoinsweeper_Bot",
     "author": "xFlaem",
