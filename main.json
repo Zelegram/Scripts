@@ -2,11 +2,11 @@
   {
     "name": "Blum",
     "botId": "BlumCryptoBot",
-    "author": "TeleMod",
-    "version": "1.0.3",
+    "author": "Marmu",
+    "version": "1.0.4",
     "description": "Blum Game Auto Clicker!",
     "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/icon.png",
-    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/1.0.3.js",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/1.0.4.js",
     "ref": "https://t.me/blum/app?startapp=ref_tdqrvywcNq"
   },
   {
