@@ -1,6 +1,6 @@
 // ==TeleModScript==
 // @name            Tomarket
-// @version         1.0.0
+// @version         1.0.1
 // @description     Tomarket Auto Clicker!!
 // @icon            https://raw.githubusercontent.com/Zelegram/Scripts/main/Tomarket_ai_bot/icon.png
 // @author          TeleMod
@@ -114,26 +114,32 @@
             // Start button
             const playButtons = [];
             const playButton = document.querySelector("div.absolute");
-            if (playButton) playButtons.push(playButton);
+            if (playButton) {
+                const left = parseInt(playButton.textContent.replace(/\D+/g, ""), 0);
+                if (left > 0) {
+                    playButtons.push(playButton);
+                }
+            }
 
             // Continues button
             document.querySelectorAll('div').forEach(e => {
                 if (e.className.includes('btn') && /Play/.test(e.textContent) && e.childElementCount == 0) {
                     playButtons.push(e);
                 }
-            })
+            });
 
             playButtons.forEach(button => {
                 if (!isGamePaused && GAME_SETTINGS.autoClickPlay) {
                     setTimeout(() => {
+                        console.log(button.className);
                         button.click();
-
                         console.log("Reset Stats!");
                         // Reset stats
                         gameStats = defaultGameStats();
                     }, getNewGameDelay());
                 }
             });
+
         }
 
         function continuousPlayButtonCheck() {
