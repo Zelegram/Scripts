@@ -1,5 +1,15 @@
 [
   {
+    "name": "Tomarket",
+    "botId": "Tomarket_ai_bot",
+    "author": "TeleMod",
+    "version": "1.0.0",
+    "description": "Tomarket Game Auto Clicker!",
+    "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Tomarket_ai_bot/icon.png",
+    "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Tomarket_ai_bot/1.0.0.js",
+    "ref": "https://t.me/Tomarket_ai_bot/app?startapp=0002dvxL"
+  },
+  {
     "name": "Blum",
     "botId": "BlumCryptoBot",
     "author": "Marmu",
