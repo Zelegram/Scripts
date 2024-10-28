@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Tomarket",
+    "id": "Tomarket_ai_bot",
+    "items": [
+      {
+        "author": "TeleMod",
+        "version": "1.0.1",
+        "title": "Tomarket Game Auto Clicker!",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Tomarket_ai_bot/icon.png",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Tomarket_ai_bot/1.0.1.js",
+        "ref": "https://t.me/Tomarket_ai_bot/app?startapp=0002dvxL"
+      }
+    ]
+  },
+  {
+    "name": "Blum",
+    "id": "BlumCryptoBot",
+    "items": [
+      {
+        "author": "Marmu",
+        "version": "1.0.4",
+        "title": "Blum Game Auto Clicker!",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/icon.png",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BlumCryptoBot/1.0.4.js",
+        "ref": "https://t.me/blum/app?startapp=ref_tdqrvywcNq"
+      }
+    ]
+  },
+  {
+    "name": "Bybit Coinsweeper",
+    "id": "BybitCoinsweeper_Bot",
+    "items": [
+      {
+        "author": "xFlaem",
+        "version": "1.0.1",
+        "title": "Auto Play Bybit Coinsweeper!!",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/icon.jpg",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/BybitCoinsweeper_Bot/1.0.0.js",
+        "ref": "https://t.me/BybitCoinsweeper_Bot?start=referredBy=1084064916"
+      }
+    ]
+  },
+  {
+    "name": "X Empire",
+    "id": "empirebot",
+    "items": [
+      {
+        "author": "mudachyo",
+        "version": "1.4",
+        "title": "X Empire Autoclicker",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/icon.jpg",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/empirebot/1.4.js",
+        "ref": "https://t.me/empirebot/game?startapp=hero1084064916"
+      }
+    ]
+  },
+  {
+    "name": "Not Pixel",
+    "id": "notpixel",
+    "items": [
+      {
+        "author": "mudachyo",
+        "version": "2.1",
+        "title": "Not Pixel Autoclicker",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/icon.jpeg",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/notpixel/2.1.js",
+        "ref": "https://t.me/notpixel/app?startapp=f1084064916_s573790"
+      }
+    ]
+  },
+  {
+    "name": "MemeFI",
+    "id": "memefi_coin_bot",
+    "items": [
+      {
+        "author": "mudachyo",
+        "version": "2.3",
+        "title": "MemeFI Autoclicker",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/icon.png",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/memefi_coin_bot/2.3.js",
+        "ref": "https://t.me/memefi_coin_bot/main?startapp=r_264f831615"
+      }
+    ]
+  },
+  {
+    "name": "Yescoin",
+    "id": "theYescoin_bot",
+    "items": [
+      {
+        "author": "mudachyo",
+        "version": "2.3",
+        "title": "Yescoin Autoclicker",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/icon.png",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/theYescoin_bot/1.1.js",
+        "ref": "https://t.me/theYescoin_bot/Yescoin?startapp=PGqXs5"
+      }
+    ]
+  },
+  {
+    "name": "Bcoin 2048",
+    "id": "Bcoin2048bot",
+    "items": [
+      {
+        "author": "KittenWoof",
+        "version": "1.3",
+        "title": "Bcoin 2048 AutoFarm",
+        "icon": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Bcoin2048bot/icon.png",
+        "url": "https://raw.githubusercontent.com/Zelegram/Scripts/main/Bcoin2048bot/1.3.js",
+        "ref": "https://t.me/Bcoin2048bot/app?startapp=ref_pCHwZ3pWtshWXacfatOzL7kd"
+      }
+    ]
+  }
+]
